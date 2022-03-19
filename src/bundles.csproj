@@ -7,14 +7,15 @@
 
   <PropertyGroup>
   <PackageId>MRWilliams.Bundles</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>M. R. Williams</Authors>
-    <Title>Bundles</Title>
-    <PackageDescription>Top-down data modeling for applications and games.</PackageDescription>
-    <PackageTags>io;data;file;xml</PackageTags>
-    <RepositoryUrl>https://github.com/citrus-thunder/bundles</RepositoryUrl>
-    <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <Version>1.0.1</Version>
+  <Authors>M. R. Williams</Authors>
+  <Title>Bundles</Title>
+  <PackageDescription>Top-down data modeling for applications and games.</PackageDescription>
+  <PackageTags>io;data;file;xml</PackageTags>
+  <RepositoryUrl>https://github.com/citrus-thunder/bundles</RepositoryUrl>
+	<ProjectUrl>https://citrus-thunder.github.io/bundles/</ProjectUrl>
+  <PackageReadmeFile>readme.md</PackageReadmeFile>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
