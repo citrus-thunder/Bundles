@@ -23,7 +23,7 @@ namespace Bundles.Test
 			var card = cards["Cards/0"] as BundleCard;
 
 			card.Suit.Value = "Spades";
-			card.CardValue.Value = "Six";
+			card.CardValue.Value = 6;
 			card.Color.Value = "Black";
 		}
 	}

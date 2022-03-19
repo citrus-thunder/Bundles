@@ -369,7 +369,7 @@ namespace Bundles
 			foreach (var prop in GetType().GetProperties())
 			{
 				var T = prop.PropertyType;
-				if (typeof(BundleField).IsAssignableFrom(T))
+				if (typeof(IBundleField).IsAssignableFrom(T))
 				{
 					var att = prop.GetCustomAttribute<FieldNameAttribute>();
 					var fieldName = prop.Name;

@@ -12,7 +12,7 @@ namespace Bundles.Test
 		public BundleField Suit { get; private set; }
 
 		[FieldName("Value")]
-		public BundleField CardValue { get; private set; }
+		public BundleField<int> CardValue { get; private set; }
 
 		public CustomField Color { get; private set; }
 	}
