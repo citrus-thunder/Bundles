@@ -14,14 +14,14 @@ Bundles is configured using XML content referred to as a BundleDef definition. T
 
 ```xml
 <BundleDef>
-	<Data root="BundleSamples/PlayerSample">
-		<Bundle name="PlayerData">
-			<Field name="Name" />
-			<Field name="Experience" />
-			<Field name="HP" />
-			<Field name="MP" />
-		</Bundle>
-	</Data>
+  <Data root="BundleSamples/PlayerSample">
+    <Bundle name="PlayerData">
+      <Field name="Name" />
+      <Field name="Experience" />
+      <Field name="HP" />
+      <Field name="MP" />
+    </Bundle>
+  </Data>
 </BundleDef>
 ```
 

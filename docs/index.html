@@ -96,14 +96,14 @@
 <h2 id="example">Example</h2>
 <p>Bundles is configured using XML content referred to as a BundleDef definition. This can be provided to the Bundler constructor as a path to an XML resource, or as a populated <code>XmlDocument</code> reference.</p>
 <pre><code class="lang-xml">&lt;BundleDef&gt;
-	&lt;Data root=&quot;BundleSamples/PlayerSample&quot;&gt;
-		&lt;Bundle name=&quot;PlayerData&quot;&gt;
-			&lt;Field name=&quot;Name&quot; /&gt;
-			&lt;Field name=&quot;Experience&quot; /&gt;
-			&lt;Field name=&quot;HP&quot; /&gt;
-			&lt;Field name=&quot;MP&quot; /&gt;
-		&lt;/Bundle&gt;
-	&lt;/Data&gt;
+  &lt;Data root=&quot;BundleSamples/PlayerSample&quot;&gt;
+    &lt;Bundle name=&quot;PlayerData&quot;&gt;
+      &lt;Field name=&quot;Name&quot; /&gt;
+      &lt;Field name=&quot;Experience&quot; /&gt;
+      &lt;Field name=&quot;HP&quot; /&gt;
+      &lt;Field name=&quot;MP&quot; /&gt;
+    &lt;/Bundle&gt;
+  &lt;/Data&gt;
 &lt;/BundleDef&gt;
 </code></pre>
 <p>This describes a single &quot;PlayerData&quot; Bundle that contains four data fields: Name, Experience, HP, and MP. This also describes that this entity can be loaded from/saved to the file system at <code>{Environment.SpecialFolder.ApplicationData}/BundleSamples/PlayerSample/PlayerData.bundle</code>. This path can be configured, but this is what the Bundler will use as the default given this definition file.</p>
