@@ -89,6 +89,48 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="bundles">Bundles</h1>
 
+<p>Bundles is an abstract and flexible data modeling library that focuses on ease-of-use.</p>
+<p>Bundles allows engineers to easily design application save data structure from the top down by describing the data's final layout rather than working from the runtime data structure outward.</p>
+<h2 id="installation">Installation</h2>
+<p>The easiest way to include Bundles in your project is via the <a href="https://www.nuget.org/packages/MRWilliams.Bundles">MRWilliams.Bundles Nuget package</a>. The Nuget page describes several methods of including the package in your project.</p>
+<h2 id="example">Example</h2>
+<p>Bundles is configured using XML content referred to as a BundleDef definition. This can be provided to the Bundler constructor as a path to an XML resource, or as a populated <code>XmlDocument</code> reference.</p>
+<pre><code class="lang-xml">&lt;BundleDef&gt;
+	&lt;Data root=&quot;BundleSamples/PlayerSample&quot;&gt;
+		&lt;Bundle name=&quot;PlayerData&quot;&gt;
+			&lt;Field name=&quot;Name&quot; /&gt;
+			&lt;Field name=&quot;Experience&quot; /&gt;
+			&lt;Field name=&quot;HP&quot; /&gt;
+			&lt;Field name=&quot;MP&quot; /&gt;
+		&lt;/Bundle&gt;
+	&lt;/Data&gt;
+&lt;/BundleDef&gt;
+</code></pre>
+<p>This describes a single &quot;PlayerData&quot; Bundle that contains four data fields: Name, Experience, HP, and MP. This also describes that this entity can be loaded from/saved to the file system at <code>{Environment.SpecialFolder.ApplicationData}/BundleSamples/PlayerSample/PlayerData.bundle</code>. This path can be configured, but this is what the Bundler will use as the default given this definition file.</p>
+<p>Now that we have a definition, we can use it to create a Bundler.</p>
+<pre><code class="lang-csharp">// let's assume the above XML definition is included in the file &quot;bundledef.xml&quot;
+
+var bundler = new Bundler(&quot;bundledef.xml&quot;);
+</code></pre>
+<p>This will create a <code>Bundler</code> that contains a single <code>Bundle</code> node in its data root (<code>bundler.Data</code>), named <code>&quot;PlayerData&quot;</code>.</p>
+<p>We can access it using its name:</p>
+<pre><code class="lang-csharp">var playerData = bundler.Data[&quot;PlayerData&quot;] as Bundle;
+
+// If the bundle has been saved previously, we can populate it
+// with the saved data with Load() or TryLoad()
+playerData.TryLoad();
+</code></pre>
+<p>And now that we have our Bundle, we can access, assign, and update its <code>Field</code>s by accessing them in much the same way we accessed the Bundle:</p>
+<pre><code class="lang-csharp">playerData[&quot;Name&quot;].Value = &quot;John Doe&quot;;
+playerData[&quot;Experience&quot;].Value = &quot;99&quot;;
+playerData[&quot;HP&quot;].Value = &quot;100&quot;;
+playerData[&quot;MP&quot;].Value = &quot;25&quot;;
+</code></pre>
+<p>Finally, once we're finished updating field values, we can save the Bundle to the filesystem by simply calling <code>Save()</code>.</p>
+<pre><code class="lang-csharp">playerData.Save();
+</code></pre>
+<p>Bundles also offers more complex node types to model more complex data structures, such as <code>Folder</code>s <code>FolderList</code>s, <code>NodeList</code>s, and more.</p>
+<p>Check out the API Documentation and Articles sections for more information on advanced usage.</p>
 </article>
               
                 </div>
