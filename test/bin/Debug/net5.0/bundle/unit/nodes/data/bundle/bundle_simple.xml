@@ -1,7 +1,0 @@
-<BundleDef version="1.0">
-	<Data root="Welcome to Monday/Bundles/Unit Tests/Nodes/Data/Bundle">
-		<Bundle name="TestBundle">
-			<Field name="TestField" />
-		</Bundle>
-	</Data>
-</BundleDef>
