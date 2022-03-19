@@ -1,0 +1,8 @@
+<BundleDef version="1.0">
+	<Config>
+		<BundleExtension name="bex">.bundler_test</BundleExtension>
+		<GenerateEmptyFolders name="gef">true</GenerateEmptyFolders>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Nodes/Options">
+	</Data>
+</BundleDef>

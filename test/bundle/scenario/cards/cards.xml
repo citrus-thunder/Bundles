@@ -1,0 +1,20 @@
+<BundleDef version="1.0">
+	<Config>
+		<BundleExtension>.dat</BundleExtension>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Scenario Tests/Cards">
+		<FolderList name="Save">
+			<Bundle name="PlayerData" file="player_data" noInit="true">
+				<Field name="Name"/>
+				<Field name="Experience"/>
+				<List name="MatchHistory">
+					<Field name="IsWin" />
+					<Field name="OpponentName"/>
+				</List>
+			</Bundle>
+			<Bundle name="DeckData" file="deck_data" noInit="true">
+				<List name="Cards" of="Card" />
+			</Bundle>
+		</FolderList>
+	</Data>
+</BundleDef>

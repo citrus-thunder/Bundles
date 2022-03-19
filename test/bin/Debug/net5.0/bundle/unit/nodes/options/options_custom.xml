@@ -1,0 +1,10 @@
+<BundleDef version="1.0">
+	<Config>
+		<BundleExtension>.bundler_test</BundleExtension>
+		<GenerateEmptyFolders>true</GenerateEmptyFolders>
+		<Option name="customOption">customValue</Option>
+		<Option name="Custom Option Two">false</Option>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Nodes/Options">
+	</Data>
+</BundleDef>

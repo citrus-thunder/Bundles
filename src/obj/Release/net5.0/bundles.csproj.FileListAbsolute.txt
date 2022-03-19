@@ -1,0 +1,14 @@
+E:\Projects\bundle\src\bin\Release\net5.0\bundles.deps.json
+E:\Projects\bundle\src\bin\Release\net5.0\bundles.dll
+E:\Projects\bundle\src\bin\Release\net5.0\ref\bundles.dll
+E:\Projects\bundle\src\bin\Release\net5.0\bundles.pdb
+E:\Projects\bundle\src\bin\Release\net5.0\bundles.xml
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.csproj.AssemblyReference.cache
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.AssemblyInfoInputs.cache
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.AssemblyInfo.cs
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.csproj.CoreCompileInputs.cache
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.dll
+E:\Projects\bundle\src\obj\Release\net5.0\ref\bundles.dll
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.xml
+E:\Projects\bundle\src\obj\Release\net5.0\bundles.pdb

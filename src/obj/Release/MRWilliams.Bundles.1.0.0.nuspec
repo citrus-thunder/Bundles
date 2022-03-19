@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MRWilliams.Bundles</id>
+    <version>1.0.0</version>
+    <title>Bundles</title>
+    <authors>M. R. Williams</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Top-down data modeling for applications and games.</description>
+    <tags>io data file xml</tags>
+    <readme>readme.md</readme>
+    <repository url="https://github.com/citrus-thunder/bundles" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Projects\bundle\src\bin\Release\net5.0\bundles.dll" target="lib\net5.0\bundles.dll" />
+    <file src="E:\Projects\bundle\src\bin\Release\net5.0\bundles.xml" target="lib\net5.0\bundles.xml" />
+    <file src="E:\Projects\bundle\readme.md" target="\readme.md" />
+  </files>
+</package>

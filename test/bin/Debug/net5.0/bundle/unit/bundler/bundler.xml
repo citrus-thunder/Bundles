@@ -1,0 +1,7 @@
+<BundleDef version="1.0">
+	<Config>
+		<BundleExtension>.bundler_test</BundleExtension>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Bundler">
+	</Data>
+</BundleDef>

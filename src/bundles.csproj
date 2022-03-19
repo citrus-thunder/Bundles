@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+  <PackageId>MRWilliams.Bundles</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>M. R. Williams</Authors>
+    <Title>Bundles</Title>
+    <PackageDescription>Top-down data modeling for applications and games.</PackageDescription>
+    <PackageTags>io;data;file;xml</PackageTags>
+    <RepositoryUrl>https://github.com/citrus-thunder/bundles</RepositoryUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

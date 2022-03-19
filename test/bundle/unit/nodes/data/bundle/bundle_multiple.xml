@@ -1,0 +1,16 @@
+<BundleDef version="1.0">
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Nodes/Data/Bundle">
+		<Bundle name="TestBundle 1">
+			<Field name="TestField 1" />
+		</Bundle>
+		<Bundle name="TestBundle 2">
+			<Field name="TestField 2" />
+		</Bundle>
+		<Bundle name="TestBundle 3">
+			<Field name="TestField 3" />
+		</Bundle>
+		<Bundle name="TestBundle 4">
+			<Field name="TestField 4" />
+		</Bundle>
+	</Data>
+</BundleDef>

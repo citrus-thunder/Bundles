@@ -1,0 +1,9 @@
+<BundleDef version="1.0">
+	<Config>
+		<GenerateEmptyFolders>true</GenerateEmptyFolders>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Nodes/Data/Folder">
+		<Folder name="Test Folder">
+		</Folder>
+	</Data>
+</BundleDef>
