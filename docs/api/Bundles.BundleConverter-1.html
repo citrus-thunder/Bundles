@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BundleField
+    <title>Class BundleConverter&lt;T&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BundleField
+    <meta name="title" content="Class BundleConverter&lt;T&gt;
    ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -92,34 +92,28 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="Bundles.BundleField">
+                    <article class="content wrap" id="_content" data-uid="Bundles.BundleConverter`1">
   
   
-  <h1 id="Bundles_BundleField" data-uid="Bundles.BundleField" class="text-break">Class BundleField
+  <h1 id="Bundles_BundleConverter_1" data-uid="Bundles.BundleConverter`1" class="text-break">Class BundleConverter&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Basic BundleField which represents a string value</p>
+  <div class="markdown level0 summary"><p>Describes a converter class that can convert
+a value type to and from a string.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Bundles.BundleField-1.html">BundleField</a>&lt;<span class="xref">System.String</span>&gt;</div>
-    <div class="level2"><span class="xref">BundleField</span></div>
+    <div class="level1"><span class="xref">BundleConverter&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.BoolConverter.html">BoolConverter</a></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.DateTimeOffsetConverter.html">DateTimeOffsetConverter</a></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.DoubleConverter.html">DoubleConverter</a></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.FloatConverter.html">FloatConverter</a></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.IntConverter.html">IntConverter</a></div>
+      <div class="level2"><a class="xref" href="Bundles.Converters.StringConverter.html">StringConverter</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Bundles.BundleField-1.html#Bundles_BundleField_1_Converter">BundleField&lt;String&gt;.Converter</a>
-    </div>
-    <div>
-      <a class="xref" href="Bundles.BundleField-1.html#Bundles_BundleField_1_Node">BundleField&lt;String&gt;.Node</a>
-    </div>
-    <div>
-      <a class="xref" href="Bundles.BundleField-1.html#Bundles_BundleField_1_Name">BundleField&lt;String&gt;.Name</a>
-    </div>
-    <div>
-      <a class="xref" href="Bundles.BundleField-1.html#Bundles_BundleField_1_Value">BundleField&lt;String&gt;.Value</a>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -144,27 +138,42 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Bundles.html">Bundles</a></h6>
   <h6><strong>Assembly</strong>: bundles.dll</h6>
-  <h5 id="Bundles_BundleField_syntax">Syntax</h5>
+  <h5 id="Bundles_BundleConverter_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BundleField : BundleField&lt;string&gt;, IBundleField</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BundleConverter&lt;T&gt;</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/citrus-thunder/bundles/new/main/docs-src/apidoc/new?filename=Bundles_BundleField__ctor_Bundles_BundleNode_System_String_.md&amp;value=---%0Auid%3A%20Bundles.BundleField.%23ctor(Bundles.BundleNode%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/citrus-thunder/bundles/new/main/docs-src/apidoc/new?filename=Bundles_BundleConverter_1_StringToValue_System_String_.md&amp;value=---%0Auid%3A%20Bundles.BundleConverter%601.StringToValue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/citrus-thunder/bundles/blob/main/src/BundleField.cs/#L85">View Source</a>
+    <a href="https://github.com/citrus-thunder/bundles/blob/main/src/BundleConverter.cs/#L24">View Source</a>
   </span>
-  <a id="Bundles_BundleField__ctor_" data-uid="Bundles.BundleField.#ctor*"></a>
-  <h4 id="Bundles_BundleField__ctor_Bundles_BundleNode_System_String_" data-uid="Bundles.BundleField.#ctor(Bundles.BundleNode,System.String)">BundleField(BundleNode, String)</h4>
-  <div class="markdown level1 summary"><p>Create a new BundleField</p>
+  <a id="Bundles_BundleConverter_1_StringToValue_" data-uid="Bundles.BundleConverter`1.StringToValue*"></a>
+  <h4 id="Bundles_BundleConverter_1_StringToValue_System_String_" data-uid="Bundles.BundleConverter`1.StringToValue(System.String)">StringToValue(String)</h4>
+  <div class="markdown level1 summary"><p>Converts a string to a generic value</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BundleField(BundleNode node, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract T StringToValue(string input)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,13 +186,71 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Bundles.BundleNode.html">BundleNode</a></td>
-        <td><span class="parametername">node</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/citrus-thunder/bundles/new/main/docs-src/apidoc/new?filename=Bundles_BundleConverter_1_ValueToString__0_.md&amp;value=---%0Auid%3A%20Bundles.BundleConverter%601.ValueToString(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/citrus-thunder/bundles/blob/main/src/BundleConverter.cs/#L17">View Source</a>
+  </span>
+  <a id="Bundles_BundleConverter_1_ValueToString_" data-uid="Bundles.BundleConverter`1.ValueToString*"></a>
+  <h4 id="Bundles_BundleConverter_1_ValueToString__0_" data-uid="Bundles.BundleConverter`1.ValueToString(`0)">ValueToString(T)</h4>
+  <div class="markdown level1 summary"><p>Converts a generic value to a string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string ValueToString(T input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.BundleConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.BundleConverter-1.html",
+          "hash": "nDpiDFE5oGg998v7dmKSrBkctcdwGq7KHlce0pNkVg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Bundles.BundleElementAttribute.yml",
       "output": {
         ".html": {
@@ -12,7 +24,19 @@
           "hash": "rioSpazBJtNhSVr3Jw5/n1CVhuECvGexs1Ec3+gMLQU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.BundleField-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.BundleField-1.html",
+          "hash": "/sw8vZp01E+U4jM7ekq+9PJKlsKxrnxoa7QarbQ3vhU="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Bundles.BundleField.html",
-          "hash": "oNxPeL/6EIFrPS8IW1mVE+baG0ZPkAc69frRVoAvzw4="
+          "hash": "bqm7aP5+0v0ZgKEkALzLkfPVBfZ0Nkn1zIOd4ljK/5A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +60,7 @@
           "hash": "fvv0oeuNvcMHF15TkjW+5EQaqwgJBnleKsWosa14gTo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +72,7 @@
           "hash": "VXpmu6IC43yGNZhDjTCKDCNVSAFU9evRgTqS4v0VsVY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +84,7 @@
           "hash": "BoADwkxLsTjOCeQEbVO1Vb1jDoyVP2nvLoh/TlcBSGs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +96,91 @@
           "hash": "nGJbMnzYMtbizPAHhb4T66jmEZ1sfwCI3KxHW4dPLiM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.BoolConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.BoolConverter.html",
+          "hash": "QmgO/KI2jKsH+Rwt+t3IUxBVrOc5ozEv1o8tHHopNJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.DateTimeOffsetConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.DateTimeOffsetConverter.html",
+          "hash": "xPk3NqYzBf3fa5w++BetG2vZk/lElDstF9pCtFf0f6g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.DoubleConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.DoubleConverter.html",
+          "hash": "x+feRZlz/+Ea9eVcsS+Etrctsxzvr4oJ2A2XGpK4XwU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.FloatConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.FloatConverter.html",
+          "hash": "Q/rshsIoNQSeAF8set0LlcgbidB1+efiva6eC+KJxJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.IntConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.IntConverter.html",
+          "hash": "ooL8P82pk8sw99g33e+NA7ixrZpvRNJDBXC2NkCAIgA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.StringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.StringConverter.html",
+          "hash": "6R1xTCCiJqZsM8RO3PqoVkIEV9iVZ2cGnczR5iWgSjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.Converters.html",
+          "hash": "2UKGRGEVybAm5vzIxO87UYieTFnPfR7TveAfDxp8KvI="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +192,7 @@
           "hash": "cs8cVQscFJAMfKufMYpYgN/+e/VtkE3XHNhhwNtIutc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +204,7 @@
           "hash": "wexSQrylU7iAeFy30pvpbJwKBH5NYO2vmHt3fIed2O0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +216,7 @@
           "hash": "9dBozwJGSuXLQ9Yw2PoyV0aeAh6WAlyMr41crqrno+Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +228,7 @@
           "hash": "GzB/AQY/Ks7w3/iB5j5eikRNk69ire8gpZpU9JRJT2g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +240,7 @@
           "hash": "PWNDyhuGLXm60NbHGWZ8hGUN3A/RT3e0MnonshPf2QY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +252,7 @@
           "hash": "0yuhgAa6TqjZhs87Ac27zeWwPCy6P1rP2IDY921rb6s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +264,7 @@
           "hash": "0sewFSttNEffACeml4Krx+tWhpZTrkGJaBE5pWSukbA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +276,7 @@
           "hash": "aiZzKhb7mlP4+K98HwinnsCNvsNYmwzqCGrovX574Ow="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,7 +288,7 @@
           "hash": "6/Vw1jCfNLrJitwXXmk5XRT8MBoAwhC9H1Kz4TIKa0I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -192,7 +300,7 @@
           "hash": "bX6OAOVcByo0ddxPJHR1+lTvqxxGbogAoixH6L9Mkos="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +312,7 @@
           "hash": "Gp0vY8LjC5v4IpxGLwOCLX+7t8ILduMLkdv9Y00sM5g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -216,7 +324,7 @@
           "hash": "tCdaO0w3/nZ1h2o22SbAkno+W6KqYzTCfGbETCb0AHE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +336,7 @@
           "hash": "X3cG/7lidVIWuroOC+5HhsMcCsJbdK6Y8/mugSzahaA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +348,7 @@
           "hash": "NDIq3nkFAcH5BZfDKNLkabni4Krz8RYpwoNkbfuPNBo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +360,7 @@
           "hash": "UgFrst5VgVdfzoVWEpjdGj4LkP3rNRtJ7SyNQLmaiiI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Bundles.html",
-          "hash": "fBHfFLVcmhDTfKE+LTPC77Bxh2nIE2quAj68XI7g9Dg="
+          "hash": "qn2zrYEgRnpl7OgfxHn1nRCx1WRa/biVL+IdNmZP/G8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -276,7 +384,7 @@
           "hash": "l/lkY7dSfHnP6bDQ4YDxmJ6MV0PHerqc6H/RtvPTjn4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ukZnhuPnd0NVyVl2iI/rC5uUG7miGBWIMHOjbsi1Pjs="
+          "hash": "HdR2k3pkS1s+0epzrD+8d45LBdrqtAj0sFSKYq7MHWE="
         }
       },
       "is_incremental": false,
@@ -324,7 +432,7 @@
           "hash": "5PMyU1SAGxc8m4xnB2n2AvXGdI8yXrK6k9RF6hKBy30="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -353,13 +461,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 22,
-          "skipped_file_count": 22
+          "total_file_count": 31,
+          "skipped_file_count": 20
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

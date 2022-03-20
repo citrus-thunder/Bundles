@@ -7,6 +7,49 @@ references:
   commentId: N:Bundles
   fullName: Bundles
   nameWithType: Bundles
+- uid: Bundles.BundleConverter`1
+  name: BundleConverter<T>
+  href: api/Bundles.BundleConverter-1.html
+  commentId: T:Bundles.BundleConverter`1
+  name.vb: BundleConverter(Of T)
+  fullName: Bundles.BundleConverter<T>
+  fullName.vb: Bundles.BundleConverter(Of T)
+  nameWithType: BundleConverter<T>
+  nameWithType.vb: BundleConverter(Of T)
+- uid: Bundles.BundleConverter`1.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.BundleConverter-1.html#Bundles_BundleConverter_1_StringToValue_System_String_
+  commentId: M:Bundles.BundleConverter`1.StringToValue(System.String)
+  fullName: Bundles.BundleConverter<T>.StringToValue(System.String)
+  fullName.vb: Bundles.BundleConverter(Of T).StringToValue(System.String)
+  nameWithType: BundleConverter<T>.StringToValue(String)
+  nameWithType.vb: BundleConverter(Of T).StringToValue(String)
+- uid: Bundles.BundleConverter`1.StringToValue*
+  name: StringToValue
+  href: api/Bundles.BundleConverter-1.html#Bundles_BundleConverter_1_StringToValue_
+  commentId: Overload:Bundles.BundleConverter`1.StringToValue
+  isSpec: "True"
+  fullName: Bundles.BundleConverter<T>.StringToValue
+  fullName.vb: Bundles.BundleConverter(Of T).StringToValue
+  nameWithType: BundleConverter<T>.StringToValue
+  nameWithType.vb: BundleConverter(Of T).StringToValue
+- uid: Bundles.BundleConverter`1.ValueToString(`0)
+  name: ValueToString(T)
+  href: api/Bundles.BundleConverter-1.html#Bundles_BundleConverter_1_ValueToString__0_
+  commentId: M:Bundles.BundleConverter`1.ValueToString(`0)
+  fullName: Bundles.BundleConverter<T>.ValueToString(T)
+  fullName.vb: Bundles.BundleConverter(Of T).ValueToString(T)
+  nameWithType: BundleConverter<T>.ValueToString(T)
+  nameWithType.vb: BundleConverter(Of T).ValueToString(T)
+- uid: Bundles.BundleConverter`1.ValueToString*
+  name: ValueToString
+  href: api/Bundles.BundleConverter-1.html#Bundles_BundleConverter_1_ValueToString_
+  commentId: Overload:Bundles.BundleConverter`1.ValueToString
+  isSpec: "True"
+  fullName: Bundles.BundleConverter<T>.ValueToString
+  fullName.vb: Bundles.BundleConverter(Of T).ValueToString
+  nameWithType: BundleConverter<T>.ValueToString
+  nameWithType.vb: BundleConverter(Of T).ValueToString
 - uid: Bundles.BundleElementAttribute
   name: BundleElementAttribute
   href: api/Bundles.BundleElementAttribute.html
@@ -58,45 +101,91 @@ references:
   isSpec: "True"
   fullName: Bundles.BundleField.BundleField
   nameWithType: BundleField.BundleField
-- uid: Bundles.BundleField.Name
+- uid: Bundles.BundleField`1
+  name: BundleField<T>
+  href: api/Bundles.BundleField-1.html
+  commentId: T:Bundles.BundleField`1
+  name.vb: BundleField(Of T)
+  fullName: Bundles.BundleField<T>
+  fullName.vb: Bundles.BundleField(Of T)
+  nameWithType: BundleField<T>
+  nameWithType.vb: BundleField(Of T)
+- uid: Bundles.BundleField`1.#ctor(Bundles.BundleNode,System.String)
+  name: BundleField(BundleNode, String)
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1__ctor_Bundles_BundleNode_System_String_
+  commentId: M:Bundles.BundleField`1.#ctor(Bundles.BundleNode,System.String)
+  fullName: Bundles.BundleField<T>.BundleField(Bundles.BundleNode, System.String)
+  fullName.vb: Bundles.BundleField(Of T).BundleField(Bundles.BundleNode, System.String)
+  nameWithType: BundleField<T>.BundleField(BundleNode, String)
+  nameWithType.vb: BundleField(Of T).BundleField(BundleNode, String)
+- uid: Bundles.BundleField`1.#ctor*
+  name: BundleField
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1__ctor_
+  commentId: Overload:Bundles.BundleField`1.#ctor
+  isSpec: "True"
+  fullName: Bundles.BundleField<T>.BundleField
+  fullName.vb: Bundles.BundleField(Of T).BundleField
+  nameWithType: BundleField<T>.BundleField
+  nameWithType.vb: BundleField(Of T).BundleField
+- uid: Bundles.BundleField`1.Converter
+  name: Converter
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Converter
+  commentId: F:Bundles.BundleField`1.Converter
+  fullName: Bundles.BundleField<T>.Converter
+  fullName.vb: Bundles.BundleField(Of T).Converter
+  nameWithType: BundleField<T>.Converter
+  nameWithType.vb: BundleField(Of T).Converter
+- uid: Bundles.BundleField`1.Name
   name: Name
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Name
-  commentId: P:Bundles.BundleField.Name
-  fullName: Bundles.BundleField.Name
-  nameWithType: BundleField.Name
-- uid: Bundles.BundleField.Name*
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Name
+  commentId: P:Bundles.BundleField`1.Name
+  fullName: Bundles.BundleField<T>.Name
+  fullName.vb: Bundles.BundleField(Of T).Name
+  nameWithType: BundleField<T>.Name
+  nameWithType.vb: BundleField(Of T).Name
+- uid: Bundles.BundleField`1.Name*
   name: Name
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Name_
-  commentId: Overload:Bundles.BundleField.Name
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Name_
+  commentId: Overload:Bundles.BundleField`1.Name
   isSpec: "True"
-  fullName: Bundles.BundleField.Name
-  nameWithType: BundleField.Name
-- uid: Bundles.BundleField.Node
+  fullName: Bundles.BundleField<T>.Name
+  fullName.vb: Bundles.BundleField(Of T).Name
+  nameWithType: BundleField<T>.Name
+  nameWithType.vb: BundleField(Of T).Name
+- uid: Bundles.BundleField`1.Node
   name: Node
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Node
-  commentId: P:Bundles.BundleField.Node
-  fullName: Bundles.BundleField.Node
-  nameWithType: BundleField.Node
-- uid: Bundles.BundleField.Node*
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Node
+  commentId: P:Bundles.BundleField`1.Node
+  fullName: Bundles.BundleField<T>.Node
+  fullName.vb: Bundles.BundleField(Of T).Node
+  nameWithType: BundleField<T>.Node
+  nameWithType.vb: BundleField(Of T).Node
+- uid: Bundles.BundleField`1.Node*
   name: Node
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Node_
-  commentId: Overload:Bundles.BundleField.Node
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Node_
+  commentId: Overload:Bundles.BundleField`1.Node
   isSpec: "True"
-  fullName: Bundles.BundleField.Node
-  nameWithType: BundleField.Node
-- uid: Bundles.BundleField.Value
+  fullName: Bundles.BundleField<T>.Node
+  fullName.vb: Bundles.BundleField(Of T).Node
+  nameWithType: BundleField<T>.Node
+  nameWithType.vb: BundleField(Of T).Node
+- uid: Bundles.BundleField`1.Value
   name: Value
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Value
-  commentId: P:Bundles.BundleField.Value
-  fullName: Bundles.BundleField.Value
-  nameWithType: BundleField.Value
-- uid: Bundles.BundleField.Value*
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Value
+  commentId: P:Bundles.BundleField`1.Value
+  fullName: Bundles.BundleField<T>.Value
+  fullName.vb: Bundles.BundleField(Of T).Value
+  nameWithType: BundleField<T>.Value
+  nameWithType.vb: BundleField(Of T).Value
+- uid: Bundles.BundleField`1.Value*
   name: Value
-  href: api/Bundles.BundleField.html#Bundles_BundleField_Value_
-  commentId: Overload:Bundles.BundleField.Value
+  href: api/Bundles.BundleField-1.html#Bundles_BundleField_1_Value_
+  commentId: Overload:Bundles.BundleField`1.Value
   isSpec: "True"
-  fullName: Bundles.BundleField.Value
-  nameWithType: BundleField.Value
+  fullName: Bundles.BundleField<T>.Value
+  fullName.vb: Bundles.BundleField(Of T).Value
+  nameWithType: BundleField<T>.Value
+  nameWithType.vb: BundleField(Of T).Value
 - uid: Bundles.BundleNode
   name: BundleNode
   href: api/Bundles.BundleNode.html
@@ -781,6 +870,204 @@ references:
   isSpec: "True"
   fullName: Bundles.BundleValues.Node
   nameWithType: BundleValues.Node
+- uid: Bundles.Converters
+  name: Bundles.Converters
+  href: api/Bundles.Converters.html
+  commentId: N:Bundles.Converters
+  fullName: Bundles.Converters
+  nameWithType: Bundles.Converters
+- uid: Bundles.Converters.BoolConverter
+  name: BoolConverter
+  href: api/Bundles.Converters.BoolConverter.html
+  commentId: T:Bundles.Converters.BoolConverter
+  fullName: Bundles.Converters.BoolConverter
+  nameWithType: BoolConverter
+- uid: Bundles.Converters.BoolConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.BoolConverter.html#Bundles_Converters_BoolConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.BoolConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.BoolConverter.StringToValue(System.String)
+  nameWithType: BoolConverter.StringToValue(String)
+- uid: Bundles.Converters.BoolConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.BoolConverter.html#Bundles_Converters_BoolConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.BoolConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.BoolConverter.StringToValue
+  nameWithType: BoolConverter.StringToValue
+- uid: Bundles.Converters.BoolConverter.ValueToString(System.Boolean)
+  name: ValueToString(Boolean)
+  href: api/Bundles.Converters.BoolConverter.html#Bundles_Converters_BoolConverter_ValueToString_System_Boolean_
+  commentId: M:Bundles.Converters.BoolConverter.ValueToString(System.Boolean)
+  fullName: Bundles.Converters.BoolConverter.ValueToString(System.Boolean)
+  nameWithType: BoolConverter.ValueToString(Boolean)
+- uid: Bundles.Converters.BoolConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.BoolConverter.html#Bundles_Converters_BoolConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.BoolConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.BoolConverter.ValueToString
+  nameWithType: BoolConverter.ValueToString
+- uid: Bundles.Converters.DateTimeOffsetConverter
+  name: DateTimeOffsetConverter
+  href: api/Bundles.Converters.DateTimeOffsetConverter.html
+  commentId: T:Bundles.Converters.DateTimeOffsetConverter
+  fullName: Bundles.Converters.DateTimeOffsetConverter
+  nameWithType: DateTimeOffsetConverter
+- uid: Bundles.Converters.DateTimeOffsetConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.DateTimeOffsetConverter.html#Bundles_Converters_DateTimeOffsetConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.DateTimeOffsetConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.DateTimeOffsetConverter.StringToValue(System.String)
+  nameWithType: DateTimeOffsetConverter.StringToValue(String)
+- uid: Bundles.Converters.DateTimeOffsetConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.DateTimeOffsetConverter.html#Bundles_Converters_DateTimeOffsetConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.DateTimeOffsetConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.DateTimeOffsetConverter.StringToValue
+  nameWithType: DateTimeOffsetConverter.StringToValue
+- uid: Bundles.Converters.DateTimeOffsetConverter.ValueToString(System.DateTimeOffset)
+  name: ValueToString(DateTimeOffset)
+  href: api/Bundles.Converters.DateTimeOffsetConverter.html#Bundles_Converters_DateTimeOffsetConverter_ValueToString_System_DateTimeOffset_
+  commentId: M:Bundles.Converters.DateTimeOffsetConverter.ValueToString(System.DateTimeOffset)
+  fullName: Bundles.Converters.DateTimeOffsetConverter.ValueToString(System.DateTimeOffset)
+  nameWithType: DateTimeOffsetConverter.ValueToString(DateTimeOffset)
+- uid: Bundles.Converters.DateTimeOffsetConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.DateTimeOffsetConverter.html#Bundles_Converters_DateTimeOffsetConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.DateTimeOffsetConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.DateTimeOffsetConverter.ValueToString
+  nameWithType: DateTimeOffsetConverter.ValueToString
+- uid: Bundles.Converters.DoubleConverter
+  name: DoubleConverter
+  href: api/Bundles.Converters.DoubleConverter.html
+  commentId: T:Bundles.Converters.DoubleConverter
+  fullName: Bundles.Converters.DoubleConverter
+  nameWithType: DoubleConverter
+- uid: Bundles.Converters.DoubleConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.DoubleConverter.html#Bundles_Converters_DoubleConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.DoubleConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.DoubleConverter.StringToValue(System.String)
+  nameWithType: DoubleConverter.StringToValue(String)
+- uid: Bundles.Converters.DoubleConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.DoubleConverter.html#Bundles_Converters_DoubleConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.DoubleConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.DoubleConverter.StringToValue
+  nameWithType: DoubleConverter.StringToValue
+- uid: Bundles.Converters.DoubleConverter.ValueToString(System.Double)
+  name: ValueToString(Double)
+  href: api/Bundles.Converters.DoubleConverter.html#Bundles_Converters_DoubleConverter_ValueToString_System_Double_
+  commentId: M:Bundles.Converters.DoubleConverter.ValueToString(System.Double)
+  fullName: Bundles.Converters.DoubleConverter.ValueToString(System.Double)
+  nameWithType: DoubleConverter.ValueToString(Double)
+- uid: Bundles.Converters.DoubleConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.DoubleConverter.html#Bundles_Converters_DoubleConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.DoubleConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.DoubleConverter.ValueToString
+  nameWithType: DoubleConverter.ValueToString
+- uid: Bundles.Converters.FloatConverter
+  name: FloatConverter
+  href: api/Bundles.Converters.FloatConverter.html
+  commentId: T:Bundles.Converters.FloatConverter
+  fullName: Bundles.Converters.FloatConverter
+  nameWithType: FloatConverter
+- uid: Bundles.Converters.FloatConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.FloatConverter.html#Bundles_Converters_FloatConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.FloatConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.FloatConverter.StringToValue(System.String)
+  nameWithType: FloatConverter.StringToValue(String)
+- uid: Bundles.Converters.FloatConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.FloatConverter.html#Bundles_Converters_FloatConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.FloatConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.FloatConverter.StringToValue
+  nameWithType: FloatConverter.StringToValue
+- uid: Bundles.Converters.FloatConverter.ValueToString(System.Single)
+  name: ValueToString(Single)
+  href: api/Bundles.Converters.FloatConverter.html#Bundles_Converters_FloatConverter_ValueToString_System_Single_
+  commentId: M:Bundles.Converters.FloatConverter.ValueToString(System.Single)
+  fullName: Bundles.Converters.FloatConverter.ValueToString(System.Single)
+  nameWithType: FloatConverter.ValueToString(Single)
+- uid: Bundles.Converters.FloatConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.FloatConverter.html#Bundles_Converters_FloatConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.FloatConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.FloatConverter.ValueToString
+  nameWithType: FloatConverter.ValueToString
+- uid: Bundles.Converters.IntConverter
+  name: IntConverter
+  href: api/Bundles.Converters.IntConverter.html
+  commentId: T:Bundles.Converters.IntConverter
+  fullName: Bundles.Converters.IntConverter
+  nameWithType: IntConverter
+- uid: Bundles.Converters.IntConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.IntConverter.html#Bundles_Converters_IntConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.IntConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.IntConverter.StringToValue(System.String)
+  nameWithType: IntConverter.StringToValue(String)
+- uid: Bundles.Converters.IntConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.IntConverter.html#Bundles_Converters_IntConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.IntConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.IntConverter.StringToValue
+  nameWithType: IntConverter.StringToValue
+- uid: Bundles.Converters.IntConverter.ValueToString(System.Int32)
+  name: ValueToString(Int32)
+  href: api/Bundles.Converters.IntConverter.html#Bundles_Converters_IntConverter_ValueToString_System_Int32_
+  commentId: M:Bundles.Converters.IntConverter.ValueToString(System.Int32)
+  fullName: Bundles.Converters.IntConverter.ValueToString(System.Int32)
+  nameWithType: IntConverter.ValueToString(Int32)
+- uid: Bundles.Converters.IntConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.IntConverter.html#Bundles_Converters_IntConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.IntConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.IntConverter.ValueToString
+  nameWithType: IntConverter.ValueToString
+- uid: Bundles.Converters.StringConverter
+  name: StringConverter
+  href: api/Bundles.Converters.StringConverter.html
+  commentId: T:Bundles.Converters.StringConverter
+  fullName: Bundles.Converters.StringConverter
+  nameWithType: StringConverter
+- uid: Bundles.Converters.StringConverter.StringToValue(System.String)
+  name: StringToValue(String)
+  href: api/Bundles.Converters.StringConverter.html#Bundles_Converters_StringConverter_StringToValue_System_String_
+  commentId: M:Bundles.Converters.StringConverter.StringToValue(System.String)
+  fullName: Bundles.Converters.StringConverter.StringToValue(System.String)
+  nameWithType: StringConverter.StringToValue(String)
+- uid: Bundles.Converters.StringConverter.StringToValue*
+  name: StringToValue
+  href: api/Bundles.Converters.StringConverter.html#Bundles_Converters_StringConverter_StringToValue_
+  commentId: Overload:Bundles.Converters.StringConverter.StringToValue
+  isSpec: "True"
+  fullName: Bundles.Converters.StringConverter.StringToValue
+  nameWithType: StringConverter.StringToValue
+- uid: Bundles.Converters.StringConverter.ValueToString(System.String)
+  name: ValueToString(String)
+  href: api/Bundles.Converters.StringConverter.html#Bundles_Converters_StringConverter_ValueToString_System_String_
+  commentId: M:Bundles.Converters.StringConverter.ValueToString(System.String)
+  fullName: Bundles.Converters.StringConverter.ValueToString(System.String)
+  nameWithType: StringConverter.ValueToString(String)
+- uid: Bundles.Converters.StringConverter.ValueToString*
+  name: ValueToString
+  href: api/Bundles.Converters.StringConverter.html#Bundles_Converters_StringConverter_ValueToString_
+  commentId: Overload:Bundles.Converters.StringConverter.ValueToString
+  isSpec: "True"
+  fullName: Bundles.Converters.StringConverter.ValueToString
+  nameWithType: StringConverter.ValueToString
 - uid: Bundles.DefaultOptionAttribute
   name: DefaultOptionAttribute
   href: api/Bundles.DefaultOptionAttribute.html
