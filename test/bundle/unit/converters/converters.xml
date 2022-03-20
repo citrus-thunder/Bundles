@@ -1,0 +1,7 @@
+<BundleDef version="1.0">
+	<Data root="Welcome to Monday/Bundles/Unit Tests/Converters">
+		<Bundle name="ConverterBundle">
+			<Converter name="Converter"/>
+		</Bundle>
+	</Data>
+</BundleDef>

@@ -22,9 +22,9 @@ namespace Bundles.Test
 			var playerInfo = player.Values;
 			var card = cards["Cards/0"] as BundleCard;
 
-			card.Suit.Value = "Spades";
+			card.Suit.Value = CardSuit.Spades;
 			card.CardValue.Value = 6;
-			card.Color.Value = "Black";
+			card.Color.Value = CardColor.Black;
 		}
 	}
 }
