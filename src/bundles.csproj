@@ -7,7 +7,7 @@
 
   <PropertyGroup>
   <PackageId>MRWilliams.Bundles</PackageId>
-  <Version>1.0.1</Version>
+  <Version>1.1.0</Version>
   <Authors>M. R. Williams</Authors>
   <Title>Bundles</Title>
   <PackageDescription>Top-down data modeling for applications and games.</PackageDescription>
