@@ -5,6 +5,7 @@ using Bundles.Nodes;
 
 namespace Bundles.Test
 {
+	[Collection("Unique: Bundler Generation")]
 	public class ConverterTests
 	{
 		private const string XML_ROOT = "unit/converters/";
