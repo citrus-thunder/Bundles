@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using Bundles;
 using Bundles.Nodes;
 
-namespace Bundles.Test
+namespace Bundles.Test.Scenarios.Cards
 {
 	public enum CardSuit {Clubs, Diamonds, Hearts, Spades}
 

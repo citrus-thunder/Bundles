@@ -1,0 +1,10 @@
+<BundleDef version="1.0">
+	<Config>
+		<BundleExtension>.dat</BundleExtension>
+	</Config>
+	<Data root="Welcome to Monday/Bundles/Scenario Tests/RPG">
+		<FolderList name="Save">
+			<PlayerData name="PlayerData" file="player" />
+		</FolderList>
+	</Data>
+</BundleDef>

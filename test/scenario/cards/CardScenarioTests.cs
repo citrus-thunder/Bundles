@@ -1,6 +1,7 @@
 using Xunit;
 
 using Bundles.Nodes;
+using Bundles.Test.Scenarios.Cards;
 
 namespace Bundles.Test
 {

@@ -364,7 +364,7 @@ namespace Bundles
 			BuildChildren(node);
 		}
 
-		private void GenerateFields()
+		internal void GenerateFields()
 		{
 			foreach (var prop in GetType().GetProperties())
 			{
@@ -381,6 +381,31 @@ namespace Bundles
 
 					AddField(fieldName);
 
+					prop.SetValue(this, Activator.CreateInstance(T, this, fieldName));
+				}
+
+				if (typeof(IBundleList).IsAssignableFrom(T))
+				{
+					var att = prop.GetCustomAttribute<FieldNameAttribute>();
+					var fieldName = prop.Name;
+
+					if (att != null)
+					{
+						fieldName = att.Name;
+					}
+
+					var sT = T.GetTypeInfo().GenericTypeArguments[0];
+
+					var sElementAtt = sT.GetCustomAttribute<BundleElementAttribute>();
+					if (sElementAtt == null)
+					{
+						throw new InvalidOperationException("BundleList items must have their BundleElement attribute set!");
+					}
+
+					var list = Activator.CreateInstance<NodeList>();
+					list.Name = fieldName;
+					list.TypeTemplate = sT;
+					AddNode(list);
 					prop.SetValue(this, Activator.CreateInstance(T, this, fieldName));
 				}
 			}

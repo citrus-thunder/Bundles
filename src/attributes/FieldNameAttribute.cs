@@ -21,6 +21,6 @@ namespace Bundles
 		/// This BundleField's overridden name
 		/// </summary>
 		/// <value></value>
-		public string Name { get; }
+		public string Name { get; private set; }
 	}
 }

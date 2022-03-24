@@ -1,3 +1,4 @@
+using System;
 using System.Xml;
 
 namespace Bundles.Nodes
@@ -8,7 +9,17 @@ namespace Bundles.Nodes
 	[BundleElement("List")]
 	public class NodeList : BundleNode
 	{
-		private string _xml;
+		/// <summary>
+		///  XML template used to dynamically generate child elements
+		/// </summary>
+		/// <value></value>
+		public string XmlTemplate { get; private set; }
+
+		/// <summary>
+		/// Type template used to dynamically generate child elements
+		/// </summary>
+		/// <value></value>
+		public Type TypeTemplate { get; internal set; }
 
 		/// <inheritdoc />
 		public override bool SkipWrite => Nodes.Count < 1;
@@ -16,7 +27,7 @@ namespace Bundles.Nodes
 		/// <inheritdoc />
 		protected override void BuildNode(XmlNode node)
 		{
-			_xml = node.OuterXml;
+			XmlTemplate = node.OuterXml;
 		}
 
 		/// <inheritdoc />
@@ -27,7 +38,7 @@ namespace Bundles.Nodes
 		}
 
 		/// <inheritdoc />
-		protected override BundleNode GetChildNode(string nodeName)
+		protected sealed override BundleNode GetChildNode(string nodeName)
 		{
 			/*
 			* This Node is an abstraction that represents multiple sibling nodes with 
@@ -41,25 +52,35 @@ namespace Bundles.Nodes
 
 			if (!Nodes.ContainsKey(nodeName))
 			{
-				var doc = new XmlDocument();
-				doc.LoadXml(_xml);
-
-				var listNode = doc.FirstChild;
-
-				if (!Attributes.TryGetValue("of", out string itemName))
+				if (TypeTemplate == null)
 				{
-					itemName = "ListItem";
+					var doc = new XmlDocument();
+					doc.LoadXml(XmlTemplate);
+
+					var listNode = doc.FirstChild;
+
+					if (!Attributes.TryGetValue("of", out string itemName))
+					{
+						itemName = "ListItem";
+					}
+
+					var itemNode = doc.CreateNode("element", itemName, null) as XmlElement;
+					itemNode.SetAttribute("name", nodeName);
+
+					foreach (XmlNode child in listNode.ChildNodes)
+					{
+						itemNode.AppendChild(child.Clone());
+					}
+
+					AddNode(itemNode);
 				}
-
-				var itemNode = doc.CreateNode("element", itemName, null) as XmlElement;
-				itemNode.SetAttribute("name", nodeName);
-
-				foreach (XmlNode child in listNode.ChildNodes)
+				else
 				{
-					itemNode.AppendChild(child.Clone());
+					var itemNode = Activator.CreateInstance(TypeTemplate) as BundleNode;
+					itemNode.Name = nodeName;
+					itemNode.GenerateFields();
+					AddNode(itemNode);
 				}
-
-				AddNode(itemNode);
 			}
 
 			return base.GetChildNode(nodeName);

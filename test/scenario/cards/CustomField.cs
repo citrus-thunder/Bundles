@@ -1,6 +1,6 @@
 using Bundles;
 
-namespace Bundles.Test
+namespace Bundles.Test.Scenarios.Cards
 {
 	public enum CardColor {Red, Black}
 
