@@ -186,6 +186,101 @@ references:
   fullName.vb: Bundles.BundleField(Of T).Value
   nameWithType: BundleField<T>.Value
   nameWithType.vb: BundleField(Of T).Value
+- uid: Bundles.BundleList`1
+  name: BundleList<T>
+  href: api/Bundles.BundleList-1.html
+  commentId: T:Bundles.BundleList`1
+  name.vb: BundleList(Of T)
+  fullName: Bundles.BundleList<T>
+  fullName.vb: Bundles.BundleList(Of T)
+  nameWithType: BundleList<T>
+  nameWithType.vb: BundleList(Of T)
+- uid: Bundles.BundleList`1.#ctor(Bundles.BundleNode,System.String)
+  name: BundleList(BundleNode, String)
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1__ctor_Bundles_BundleNode_System_String_
+  commentId: M:Bundles.BundleList`1.#ctor(Bundles.BundleNode,System.String)
+  fullName: Bundles.BundleList<T>.BundleList(Bundles.BundleNode, System.String)
+  fullName.vb: Bundles.BundleList(Of T).BundleList(Bundles.BundleNode, System.String)
+  nameWithType: BundleList<T>.BundleList(BundleNode, String)
+  nameWithType.vb: BundleList(Of T).BundleList(BundleNode, String)
+- uid: Bundles.BundleList`1.#ctor*
+  name: BundleList
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1__ctor_
+  commentId: Overload:Bundles.BundleList`1.#ctor
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.BundleList
+  fullName.vb: Bundles.BundleList(Of T).BundleList
+  nameWithType: BundleList<T>.BundleList
+  nameWithType.vb: BundleList(Of T).BundleList
+- uid: Bundles.BundleList`1.Item(System.String)
+  name: Item[String]
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Item_System_String_
+  commentId: P:Bundles.BundleList`1.Item(System.String)
+  name.vb: Item(String)
+  fullName: Bundles.BundleList<T>.Item[System.String]
+  fullName.vb: Bundles.BundleList(Of T).Item(System.String)
+  nameWithType: BundleList<T>.Item[String]
+  nameWithType.vb: BundleList(Of T).Item(String)
+- uid: Bundles.BundleList`1.Item*
+  name: Item
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Item_
+  commentId: Overload:Bundles.BundleList`1.Item
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.Item
+  fullName.vb: Bundles.BundleList(Of T).Item
+  nameWithType: BundleList<T>.Item
+  nameWithType.vb: BundleList(Of T).Item
+- uid: Bundles.BundleList`1.List
+  name: List
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_List
+  commentId: P:Bundles.BundleList`1.List
+  fullName: Bundles.BundleList<T>.List
+  fullName.vb: Bundles.BundleList(Of T).List
+  nameWithType: BundleList<T>.List
+  nameWithType.vb: BundleList(Of T).List
+- uid: Bundles.BundleList`1.List*
+  name: List
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_List_
+  commentId: Overload:Bundles.BundleList`1.List
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.List
+  fullName.vb: Bundles.BundleList(Of T).List
+  nameWithType: BundleList<T>.List
+  nameWithType.vb: BundleList(Of T).List
+- uid: Bundles.BundleList`1.Name
+  name: Name
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Name
+  commentId: P:Bundles.BundleList`1.Name
+  fullName: Bundles.BundleList<T>.Name
+  fullName.vb: Bundles.BundleList(Of T).Name
+  nameWithType: BundleList<T>.Name
+  nameWithType.vb: BundleList(Of T).Name
+- uid: Bundles.BundleList`1.Name*
+  name: Name
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Name_
+  commentId: Overload:Bundles.BundleList`1.Name
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.Name
+  fullName.vb: Bundles.BundleList(Of T).Name
+  nameWithType: BundleList<T>.Name
+  nameWithType.vb: BundleList(Of T).Name
+- uid: Bundles.BundleList`1.Node
+  name: Node
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Node
+  commentId: P:Bundles.BundleList`1.Node
+  fullName: Bundles.BundleList<T>.Node
+  fullName.vb: Bundles.BundleList(Of T).Node
+  nameWithType: BundleList<T>.Node
+  nameWithType.vb: BundleList(Of T).Node
+- uid: Bundles.BundleList`1.Node*
+  name: Node
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Node_
+  commentId: Overload:Bundles.BundleList`1.Node
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.Node
+  fullName.vb: Bundles.BundleList(Of T).Node
+  nameWithType: BundleList<T>.Node
+  nameWithType.vb: BundleList(Of T).Node
 - uid: Bundles.BundleNode
   name: BundleNode
   href: api/Bundles.BundleNode.html
@@ -1652,3 +1747,29 @@ references:
   isSpec: "True"
   fullName: Bundles.Nodes.NodeList.SkipWrite
   nameWithType: NodeList.SkipWrite
+- uid: Bundles.Nodes.NodeList.TypeTemplate
+  name: TypeTemplate
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_TypeTemplate
+  commentId: P:Bundles.Nodes.NodeList.TypeTemplate
+  fullName: Bundles.Nodes.NodeList.TypeTemplate
+  nameWithType: NodeList.TypeTemplate
+- uid: Bundles.Nodes.NodeList.TypeTemplate*
+  name: TypeTemplate
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_TypeTemplate_
+  commentId: Overload:Bundles.Nodes.NodeList.TypeTemplate
+  isSpec: "True"
+  fullName: Bundles.Nodes.NodeList.TypeTemplate
+  nameWithType: NodeList.TypeTemplate
+- uid: Bundles.Nodes.NodeList.XmlTemplate
+  name: XmlTemplate
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_XmlTemplate
+  commentId: P:Bundles.Nodes.NodeList.XmlTemplate
+  fullName: Bundles.Nodes.NodeList.XmlTemplate
+  nameWithType: NodeList.XmlTemplate
+- uid: Bundles.Nodes.NodeList.XmlTemplate*
+  name: XmlTemplate
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_XmlTemplate_
+  commentId: Overload:Bundles.Nodes.NodeList.XmlTemplate
+  isSpec: "True"
+  fullName: Bundles.Nodes.NodeList.XmlTemplate
+  nameWithType: NodeList.XmlTemplate

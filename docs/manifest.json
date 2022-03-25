@@ -53,11 +53,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Bundles.BundleList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bundles.BundleList-1.html",
+          "hash": "9JzgoCuZ7tXBB4kJEcKAV4o03e1+iP4LUPjo+GasJAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Bundles.BundleNode.yml",
       "output": {
         ".html": {
           "relative_path": "api/Bundles.BundleNode.html",
-          "hash": "fvv0oeuNvcMHF15TkjW+5EQaqwgJBnleKsWosa14gTo="
+          "hash": "j/yIlJQSCLHTP7RSIIPAqqmDoUfct0eNbkoPmMDJmq8="
         }
       },
       "is_incremental": false,
@@ -345,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Bundles.Nodes.NodeList.html",
-          "hash": "NDIq3nkFAcH5BZfDKNLkabni4Krz8RYpwoNkbfuPNBo="
+          "hash": "ijQm5oZKtPvTrP49JUYvUhhk1NEJrUScCCIUwV7SSeg="
         }
       },
       "is_incremental": false,
@@ -369,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Bundles.html",
-          "hash": "qn2zrYEgRnpl7OgfxHn1nRCx1WRa/biVL+IdNmZP/G8="
+          "hash": "GGNT2SqoVb0ZYBYYoZi7MtmUtSFzo05atmw7fTcYuog="
         }
       },
       "is_incremental": false,
@@ -393,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "HdR2k3pkS1s+0epzrD+8d45LBdrqtAj0sFSKYq7MHWE="
+          "hash": "97LRDrXIibUZtnqEGPN0ytxBxuDseLqpigE+UFZra80="
         }
       },
       "is_incremental": false,
@@ -466,8 +478,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 31,
-          "skipped_file_count": 20
+          "total_file_count": 32,
+          "skipped_file_count": 26
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
