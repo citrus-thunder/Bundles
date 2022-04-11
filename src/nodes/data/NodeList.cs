@@ -24,6 +24,20 @@ namespace Bundles.Nodes
 		/// <inheritdoc />
 		public override bool SkipWrite => Nodes.Count < 1;
 
+		/// <summary>
+		/// Clears all child nodes
+		/// </summary>
+		public void Clear() => Nodes.Clear();
+
+		/// <summary>
+		/// Removes the child node with the given name
+		/// </summary>
+		/// <param name="name"></param>
+		public void Remove(string name)
+		{
+			Nodes.Remove(name);
+		}
+
 		/// <inheritdoc />
 		protected override void BuildNode(XmlNode node)
 		{

@@ -41,5 +41,16 @@ namespace Bundles
 		/// </summary>
 		/// <value></value>
 		public BundleNode Node { get; private set; }
+
+		/// <summary>
+		/// Clears all items from this BundleList
+		/// </summary>
+		public void Clear() => List.Clear();
+
+		/// <summary>
+		/// Removes the item by the given name from this BundleList
+		/// </summary>
+		/// <param name="nodeName"></param>
+		public void Remove(string nodeName) => List.Remove(nodeName);
 	}
 }
