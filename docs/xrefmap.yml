@@ -212,6 +212,23 @@ references:
   fullName.vb: Bundles.BundleList(Of T).BundleList
   nameWithType: BundleList<T>.BundleList
   nameWithType.vb: BundleList(Of T).BundleList
+- uid: Bundles.BundleList`1.Clear
+  name: Clear()
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Clear
+  commentId: M:Bundles.BundleList`1.Clear
+  fullName: Bundles.BundleList<T>.Clear()
+  fullName.vb: Bundles.BundleList(Of T).Clear()
+  nameWithType: BundleList<T>.Clear()
+  nameWithType.vb: BundleList(Of T).Clear()
+- uid: Bundles.BundleList`1.Clear*
+  name: Clear
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Clear_
+  commentId: Overload:Bundles.BundleList`1.Clear
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.Clear
+  fullName.vb: Bundles.BundleList(Of T).Clear
+  nameWithType: BundleList<T>.Clear
+  nameWithType.vb: BundleList(Of T).Clear
 - uid: Bundles.BundleList`1.Item(System.String)
   name: Item[String]
   href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Item_System_String_
@@ -281,6 +298,23 @@ references:
   fullName.vb: Bundles.BundleList(Of T).Node
   nameWithType: BundleList<T>.Node
   nameWithType.vb: BundleList(Of T).Node
+- uid: Bundles.BundleList`1.Remove(System.String)
+  name: Remove(String)
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Remove_System_String_
+  commentId: M:Bundles.BundleList`1.Remove(System.String)
+  fullName: Bundles.BundleList<T>.Remove(System.String)
+  fullName.vb: Bundles.BundleList(Of T).Remove(System.String)
+  nameWithType: BundleList<T>.Remove(String)
+  nameWithType.vb: BundleList(Of T).Remove(String)
+- uid: Bundles.BundleList`1.Remove*
+  name: Remove
+  href: api/Bundles.BundleList-1.html#Bundles_BundleList_1_Remove_
+  commentId: Overload:Bundles.BundleList`1.Remove
+  isSpec: "True"
+  fullName: Bundles.BundleList<T>.Remove
+  fullName.vb: Bundles.BundleList(Of T).Remove
+  nameWithType: BundleList<T>.Remove
+  nameWithType.vb: BundleList(Of T).Remove
 - uid: Bundles.BundleNode
   name: BundleNode
   href: api/Bundles.BundleNode.html
@@ -1721,6 +1755,19 @@ references:
   isSpec: "True"
   fullName: Bundles.Nodes.NodeList.BuildNode
   nameWithType: NodeList.BuildNode
+- uid: Bundles.Nodes.NodeList.Clear
+  name: Clear()
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_Clear
+  commentId: M:Bundles.Nodes.NodeList.Clear
+  fullName: Bundles.Nodes.NodeList.Clear()
+  nameWithType: NodeList.Clear()
+- uid: Bundles.Nodes.NodeList.Clear*
+  name: Clear
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_Clear_
+  commentId: Overload:Bundles.Nodes.NodeList.Clear
+  isSpec: "True"
+  fullName: Bundles.Nodes.NodeList.Clear
+  nameWithType: NodeList.Clear
 - uid: Bundles.Nodes.NodeList.GetChildNode(System.String)
   name: GetChildNode(String)
   href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_GetChildNode_System_String_
@@ -1734,6 +1781,19 @@ references:
   isSpec: "True"
   fullName: Bundles.Nodes.NodeList.GetChildNode
   nameWithType: NodeList.GetChildNode
+- uid: Bundles.Nodes.NodeList.Remove(System.String)
+  name: Remove(String)
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_Remove_System_String_
+  commentId: M:Bundles.Nodes.NodeList.Remove(System.String)
+  fullName: Bundles.Nodes.NodeList.Remove(System.String)
+  nameWithType: NodeList.Remove(String)
+- uid: Bundles.Nodes.NodeList.Remove*
+  name: Remove
+  href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_Remove_
+  commentId: Overload:Bundles.Nodes.NodeList.Remove
+  isSpec: "True"
+  fullName: Bundles.Nodes.NodeList.Remove
+  nameWithType: NodeList.Remove
 - uid: Bundles.Nodes.NodeList.SkipWrite
   name: SkipWrite
   href: api/Bundles.Nodes.NodeList.html#Bundles_Nodes_NodeList_SkipWrite
